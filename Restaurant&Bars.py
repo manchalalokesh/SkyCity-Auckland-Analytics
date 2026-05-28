@@ -14,7 +14,7 @@ st.set_page_config(
 @st.cache_data
 def load_data():
     df = pd.read_csv(
-        'skycity_final_analysis (1).csv'
+        'skycity_final_analysis.csv'
     )
     return df
 
